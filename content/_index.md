@@ -1,5 +1,5 @@
 +++
-title = "maukwm"
+title = "maukwm.com"
 +++
 
-Hey, I am Mauk. Welcome to my corner of the internet.
+Welcome to this small site, not much to find here (yet)
