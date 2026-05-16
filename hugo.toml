@@ -1,14 +1,26 @@
 baseURL = 'https://maukwm.com/'
+languageCode = 'en-us'
 title = 'maukwm'
 theme = 'hugo-bearblog'
 
 [params]
-  description = ''
+  defaultTheme = 'dark'
+  showReadingTime = true
+  showShareButtons = false
+  showBreadCrumbs = true
+
+  [params.homeInfoParams]
+    Title = "Hey, I'm Mauk"
+    Content = "Welcome to my corner of the internet."
+
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/MaukWM'
 
 [menu]
   [[menu.main]]
-    name = 'Home'
-    url = '/'
+    name = 'Projects'
+    url = '/projects/'
     weight = 1
   [[menu.main]]
     name = 'Blog'
@@ -18,3 +30,6 @@ theme = 'hugo-bearblog'
     name = 'About'
     url = '/about/'
     weight = 3
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
